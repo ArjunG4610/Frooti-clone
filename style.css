@@ -1,0 +1,140 @@
+/* Header styling */
+header {
+    background: black; /* Sets the background color to black */
+    display: flex; /* Makes the header a flex container */
+    height: 70px; /* Sets the height of the header */
+    position: fixed; /* Fixes the header at the top of the page */
+    z-index: 1000; /* Ensures the header stays on top of other elements */
+    width: 100%; /* Makes the header span the full width of the page */
+}
+
+/* Body styling */
+body {
+    margin: 0; /* Removes default margin around the body */
+}
+
+/* Logo styling */
+.logo {
+    width: 119px; /* Width of the logo */
+    height: 26px; /* Height of the logo */
+    margin-left: 25px; /* Adds space to the left of the logo */
+    margin-top: 25px; /* Adds space to the top of the logo */
+}
+
+/* Right header (navigation links) styling */
+.right-header {
+    color: white; /* Sets the text color to white */
+    display: flex; /* Makes it a flex container for horizontal alignment */
+    font-size: 16px; /* Sets the font size */
+    align-items: center; /* Vertically centers the items */
+    letter-spacing: 1px; /* Adds spacing between letters */
+    margin-left: 396px; /* Adds left margin to position the links */
+    font-family: "Open Sans", sans-serif; /* Sets the font family */
+}
+
+/* Styling for navigation links */
+.right {
+    color: white; /* Sets link text color to white */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect for navigation links */
+.right:hover {
+    color: #e53f27; /* Changes link color to red on hover */
+}
+
+/* Left container styling */
+.left-container {
+    background: rgb(240, 145, 48); /* Sets background color to orange */
+    width: 50%; /* Takes up half the width of the page */
+    height: 1241px; /* Sets the height of the container */
+    margin-top: -4px; /* Slightly moves container upwards */
+    display: flex; /* Makes it a flex container */
+    justify-content: center; /* Centers its content horizontally */
+}
+
+/* Design image styling */
+.design {
+    width: 190px; /* Width of the image */
+    height: 529px; /* Height of the image */
+    margin-top: 50%; /* Adds top margin for positioning */
+}
+
+/* Styling for text over the image */
+.image-text {
+    font-size: 80px; /* Large font size */
+    font-weight: 800; /* Bold text */
+    color: white; /* White text color */
+    margin-left: -256px; /* Adjusts horizontal positioning */
+    margin-top: 545px; /* Adjusts vertical positioning */
+    font-family: "EksellDisplayWeb-Small"; /* Sets the font */
+}
+
+/* Container styling */
+container {
+    display: flex; /* Makes it a flex container */
+}
+
+/* Right paragraph styling */
+.right-para {
+    font-size: 24px; /* Sets font size */
+    display: flex; /* Makes it a flex container */
+    font-family: Arial, sans-serif; /* Sets font family */
+    line-height: 1.2; /* Sets line spacing */
+    padding-top: 149px; /* Adds top padding */
+    padding-left: 139px; /* Adds left padding */
+}
+
+/* Styling for the Frooti set image */
+.frooti-set {
+    width: 100%; /* Makes the image span the full width of the page */
+}
+
+/* Footer styling */
+footer {
+    height: 250px; /* Sets the height of the footer */
+}
+
+/* First portion of the footer styling */
+.first-portion {
+    font-size: 14px; /* Sets font size */
+    font-family: Arial, Helvetica, sans-serif; /* Sets font family */
+}
+
+/* Left-side footer content styling */
+.left-side {
+    margin-left: 49px; /* Adds left margin */
+    padding-top: 36px; /* Adds top padding */
+}
+
+/* Center footer content styling */
+.center {
+    margin-left: 522px; /* Adds left margin */
+    margin-top: -131px; /* Adjusts vertical positioning */
+    line-height: 13px; /* Adjusts line spacing */
+}
+
+/* Link decoration in footer */
+.decoration {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets link text color to black */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Hover effect for footer links */
+.decoration:hover {
+    color: #e53f27; /* Changes link color to red on hover */
+}
+
+/* Right-side footer content styling */
+.right-side {
+    margin-left: 993px; /* Adds left margin */
+    margin-top: -132px; /* Adjusts vertical positioning */
+    line-height: 15px; /* Adjusts line spacing */
+}
+
+/* Social media icons in footer */
+.icons {
+    display: flex; /* Aligns icons horizontally */
+    margin-left: 993px; /* Adds left margin */
+}
